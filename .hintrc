@@ -3,10 +3,14 @@
     "development"
   ],
   "hints": {
-    "axe/text-alternatives": [
+    "compat-api/css": [
       "default",
       {
-        "image-alt": "off"
+        "ignore": [
+          "user-select",
+          "-webkit-box-reflect",
+          "backdrop-filter"
+        ]
       }
     ],
     "axe/name-role-value": [
@@ -21,17 +25,6 @@
       "default",
       {
         "label": "off"
-      }
-    ],
-    "button-type": "off",
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "user-select",
-          "-webkit-box-reflect",
-          "backdrop-filter"
-        ]
       }
     ]
   }
